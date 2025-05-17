@@ -52,20 +52,11 @@ Designed as part of a graduate-level cloud computing course, the project focuses
 
 ## 🏗️ System Architecture
 
-</p> <details> <summary>Text Diagram</summary>
-text
-[React Front-End] → [CloudFront] → [S3 Bucket (Static Hosting)]
-                            ↓
-                      [API Gateway]
-                            ↓
-                      [AWS Lambda]
-                            ↓
-                      [DynamoDB]
-                            ↑
-                 [AWS Cognito (Auth)]
-</details>
+Below is the high-level architecture diagram for the proposed cloud-based serverless application:
 
-
+<p align="center">
+  <img src="./serverless-architecture.png" alt="AWS Serverless Architecture Diagram" width="700"/>
+</p>
 
 
 > Architecture is designed for high performance, resilience, and minimal operational cost.
